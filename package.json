@@ -3,7 +3,7 @@
     "version": "1.0.4",
     "description": "The types and interfaces for steam-wiki",
     "main": "index.ts",
-    "typings": "index.d.ts",
+    "//typings": "index.d.ts",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "prettier --write source/ && node ./bin/generate-index.js"
