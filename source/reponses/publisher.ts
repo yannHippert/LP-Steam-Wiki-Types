@@ -1,6 +1,3 @@
-export interface CompletePublishersResponseBody {
-    searchText: string;
-    maxResults: number;
-    // totalResults: number;
-    results: Array<string>;
-}
+import { CompletionResponseBody } from './completion';
+
+export interface CompletePublishersResponseBody extends CompletionResponseBody {}
