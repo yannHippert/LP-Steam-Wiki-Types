@@ -3,6 +3,14 @@ export interface Login {
     password: string;
 }
 
-export interface IRegister extends Login {
+export interface Register extends Login {
     confirmPassword: string;
+}
+
+export interface JWTToken {
+    refreshToken: string;
+}
+
+export interface JWTTokenData {
+    userId: string;
 }
