@@ -1,4 +1,4 @@
-import { IMovie } from './types/movie';
+import { Movie } from './types/movie';
 import { Screenshot } from './types/screenshot';
 
 export interface Media {
@@ -6,5 +6,5 @@ export interface Media {
     header_image: string;
     screenshots: Array<Screenshot>;
     background: string;
-    movies?: Array<IMovie>;
+    movies?: Array<Movie>;
 }
