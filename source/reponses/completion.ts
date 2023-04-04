@@ -1,6 +1,6 @@
 export interface CompletionResponseBody {
     searchText: string;
     maxResults: number;
-    // totalResults: number;
+    totalResults?: number;
     results: Array<string>;
 }
