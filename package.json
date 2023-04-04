@@ -1,6 +1,6 @@
 {
     "name": "@steam-wiki/types",
-    "version": "1.0.13",
+    "version": "1.0.14",
     "description": "The types and interfaces for steam-wiki",
     "main": "index.ts",
     "scripts": {
