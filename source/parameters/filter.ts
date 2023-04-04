@@ -1,7 +1,6 @@
 import { Category } from '../types/category';
 import { Genre } from '../types/genre';
 import { Platform } from '../types/platform';
-import { SteamspyTag } from '../types/steamspy_tag';
 
 export interface FilterParameters {
     name?: string;
@@ -14,7 +13,6 @@ export interface FilterParameters {
     required_age?: number;
     categories?: Category | Array<Category>;
     genres?: Genre | Array<Genre>;
-    tags?: SteamspyTag | Array<SteamspyTag>;
     order_by?: string;
     order_type?: 'asc' | 'desc';
 }
