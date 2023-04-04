@@ -1,0 +1,15 @@
+{
+    "name": "@steam-wiki/types",
+    "version": "1.0.1",
+    "description": "The types and interfaces for steam-wiki",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "prettier --write source/ && node ./bin/generate-index.js"
+    },
+    "devDependencies": {
+        "prettier": "^2.8.3"
+    },
+    "author": "",
+    "license": "ISC"
+}
