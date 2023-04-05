@@ -1,4 +1,4 @@
-import { Category } from 'source/types/category';
+import { Category } from '../types/category';
 
 export interface GetAllCategoriesResponseBody {
     results: Array<Category>;

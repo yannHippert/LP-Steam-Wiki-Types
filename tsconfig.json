@@ -1,6 +1,7 @@
 {
     "compileOnSave": false,
     "compilerOptions": {
+        "outDir": "./build",
         "forceConsistentCasingInFileNames": true,
         "strict": true,
         "noPropertyAccessFromIndexSignature": true,
@@ -20,8 +21,8 @@
         "allowSyntheticDefaultImports": true,
         "baseUrl": "./",
         "paths": {
-            "@types": ["index.ts"],
-            "@types/*": ["/source/*"]
+            "@/*": ["/source/*"],
+            "@types": ["index.ts"]
         }
     }
 }

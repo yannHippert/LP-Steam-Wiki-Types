@@ -1,6 +1,6 @@
-import { DetailedGame } from 'source/detailedGame';
 import { CompletionResponseBody } from './completion';
-import { Game } from 'source/game';
+import { DetailedGame } from '../detailedGame';
+import { Game } from '../game';
 
 export interface CompleteGameResponseBody extends CompletionResponseBody {}
 

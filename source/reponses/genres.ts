@@ -1,4 +1,4 @@
-import { Genre } from 'source/types/genre';
+import { Genre } from '../types/genre';
 
 export interface GetAllGenresResponseBody {
     results: Array<Genre>;
