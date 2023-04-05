@@ -12,9 +12,9 @@ export interface Game {
     developer: string;
     publisher: string;
     platforms: Array<Platform>;
-    required_age: number;
     categories: Array<Category>;
     genres: Array<Genre>;
+    required_age: number;
     steamspy_tags: Array<SteamspyTag>;
     achievements: number;
     positive_ratings: number;
