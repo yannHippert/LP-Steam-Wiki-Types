@@ -15,4 +15,6 @@ export interface FilterParameters {
     genres?: Genre | Array<Genre>;
     order_by?: string;
     order_type?: 'asc' | 'desc';
+    user_only?: boolean;
+    games?: Array<string>;
 }
